@@ -1,135 +1,135 @@
+
+/*
+
 body {
-    background-color: #e0e0e0;
+    background-color: #142128;
     }
 
-    .card-body h1, h2 {
-        font-family: 'Roboto Serif', serif; 
-        font-size: 40px; 
-        color: #2f1893;
-      }
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 
-      h3, p {
-        font-family: 'Roboto', serif; 
-        font-size: 20px; 
-        color:#1e0e62;
+.carousel-item img {
+    width: 100%;
+    height: 500px; // Aumentar la altura del carrusel
+    object-fit: cover;
+}
 
-      }
+#carouselOfertas {
+    max-width: 800px;
+    margin: auto;
+}
 
-    .card-custom {
-        margin-bottom: 20px;
-        height: 100%;
-    }
-    .card-img-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 600px;
-    }
-    .card-img-top {
-        max-height: 100%;
-        max-width: 100%;
-    }
-    .category-row {
-        display: flex;
-        justify-content: space-around;
-    }
-    .category-card {
-        flex: 1;
-        margin: 0 10px;
+.navbar {
+    background-color: rgb(85, 200, 85) !important;
+}
+
+.hero-section {
+    background: url('/img/brick-fence-and-spring-green-leaves-picjumbo-com.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
     }
 
-    .btn-secondary {
-        background-color: #1e0e62;
-        border-color: #f3f2f4;
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
 
-    }
+.btn-primary {
+    background-color: rgb(30, 68, 18);
+    color: #c8d5e4;
+    border: 1px solid #ddd;
+}
+//Estilos para el formulario de contacto
+.contact-section {
+    background-color: #142128; // Color de fondo azul
+    color: white;
+    padding: 3rem 0;
+}
 
-    #miBoton {
-        background-color: #25dac5; /* Color original de btn-primary */
-        border-color: #eef1f5;
-        transition: background-color 0.3s ease;
-    }
-    
-    #miBoton:hover {
-        background-color: #2f1893; /* Un tono más oscuro para hover */
-        border-color: #f3f2f4;
-    }
-    
-    #miBoton.clicked {
-        background-color: #25dac5; /* Tu color personalizado */
-        border-color: #f3f2f4;
-    }
-    
-    /* carrusel */
+.contact-section h1 {
+    color: white;
+    margin-bottom: 1.5rem;
+}
 
-    .carousel-inner img {
-        height: 700px; /* Ajusta la altura según tus necesidades */
-        width: 100%;
-        object-fit: contain; /* Cambia de cover a contain */
-        max-height: 100%; /* Ajusta la altura máxima */
-    }
+.contact-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-    /* responsive */
-    @media (max-width: 991px) {
-        .card-img-wrapper {
-            height: 400px;
-        }
-        
-        .carousel-inner img {
-            height: 500px;
-        }
+.contact-form label {
+    font-weight: 600;
+    color: #555; // Color oscuro para las etiquetas dentro del formulario 
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #333; // Color oscuro para el texto de entrada 
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #142128;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.contact-info {
+    color: white;
+}
+
+.contact-info h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        margin-top: 2rem;
     }
-    
-    @media (max-width: 767px) {
-        .category-row {
-            flex-direction: column;
-        }
-        
-        .category-card {
-            margin: 0 0 20px 0;
-        }
-        
-        .card-img-wrapper {
-            height: 300px;
-        }
-        
-        .carousel-inner img {
-            height: 300px;
-        }
-    }
-    
-    @media (max-width: 575px) {
-        .container {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-    
-        .category-card {
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-    
-        .card-custom {
-            margin-bottom: 15px;
-        }
-    
-        .card-img-wrapper {
-            height: auto;
-            padding: 10px;
-        }
-    
-        .card-img-top {
-            max-height: 200px;
-            width: auto;
-            max-width: 100%;
-        }
-    
-        .card-body {
-            padding: 10px;
-        }
-    
-        .carousel-inner img {
-            height: auto;
-            max-height: 200px;
-        }
-    }
+}
+
+// Estilos para el botón de volver a inicio
+.back-to-home {
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.back-to-home:hover {
+    background-color: white;
+    color: #007bff;
+}
+
+/*
+
