@@ -1,10 +1,10 @@
-:root{
-    --blue-color:#1E0E62;
-    --ultramarine-color:#2F1893;
+:root {
+    --blue-color: #1E0E62;
+    --ultramarine-color: #2F1893;
     --turquoise-color: #25DAC5;
-    --white-color:#F2F2F2;
-    --platinum-color:#E0E0E0;
-    --silver-color:#CCCCCC;
+    --white-color: #F2F2F2;
+    --platinum-color: #E0E0E0;
+    --silver-color: #CCCCCC;
 
 }
 
@@ -14,25 +14,31 @@
     font-weight: 700;
     font-style: normal;
     font-variation-settings:
-      "wdth" 113.9,
-      "GRAD" 0;
+        "wdth" 113.9,
+        "GRAD" 0;
 }
-.roboto-serif-regular{
+
+.roboto-serif-regular {
     font-family: "Roboto serif", serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-h5{
-    font-family:"Roboto Serif", serif; ;
+
+h5 {
+    font-family: "Roboto Serif", serif;
+    ;
 }
-p{
-    font-family: "Roboto",sans-serif !important;
+
+p {
+    font-family: "Roboto", sans-serif !important;
 }
+
 .card-img-top {
     width: 100%;
     height: 200px;
@@ -41,7 +47,8 @@ p{
 
 .carousel-item img {
     width: 100%;
-    height: 550px; /* Aumentar la altura del carrusel */
+    height: 550px;
+    /* Aumentar la altura del carrusel */
     object-fit: contain;
 }
 
@@ -50,13 +57,14 @@ p{
     margin: auto;
 }
 
-.navbar {
+/*.navbar {
     background-color: var(--platinum-color) !important;
 }
+*/
 
 .hero-section {
-    background: rgb(30,14,98);
-    background: radial-gradient(circle, rgba(30,14,98,1) 0%, rgba(37,218,197,1) 35%, rgba(47,24,147,1) 100%) ;
+    background: rgb(30, 14, 98);
+    background: radial-gradient(circle, rgba(30, 14, 98, 1) 0%, rgba(37, 218, 197, 1) 35%, rgba(47, 24, 147, 1) 100%);
     height: 30vh;
 }
 
@@ -70,9 +78,11 @@ p{
     color: #c8d5e4;
     border: 1px solid #ddd;
 }
+
 /* Estilos para el formulario de contacto */
 .contact-section {
-    background-color: #142128; /* Color de fondo azul */
+    background-color: #142128;
+    /* Color de fondo azul */
     color: white;
     padding: 3rem 0;
 }
@@ -91,7 +101,8 @@ p{
 
 .contact-form label {
     font-weight: 600;
-    color: #555; /* Color oscuro para las etiquetas dentro del formulario */
+    color: #555;
+    /* Color oscuro para las etiquetas dentro del formulario */
 }
 
 .contact-form input,
@@ -101,7 +112,8 @@ p{
     padding: 0.5rem;
     width: 100%;
     margin-bottom: 1rem;
-    color: #333; /* Color oscuro para el texto de entrada */
+    color: #333;
+    /* Color oscuro para el texto de entrada */
 }
 
 .contact-form input:focus,
@@ -140,39 +152,49 @@ p{
 }
 
 @media (max-width: 768px) {
-    h1{
+    h1 {
         font-size: 2.5rem !important;
     }
-    h2{
+
+    h2 {
         font-size: 1.5rem !important;
     }
-    p{
+
+    p {
         font-size: 1rem !important;
     }
-    .btn-categorias{
+
+    .btn-categorias {
         margin-top: 0 !important;
     }
+
     .contact-info {
         margin-top: 2rem;
     }
-    .hero-section{
+
+    .hero-section {
         height: 55vh;
     }
+
     .card img {
         height: 150px;
         object-fit: contain;
     }
+
     .carousel-item img {
         width: 100%;
-        height: 220px; /* Aumentar la altura del carrusel */
+        height: 220px;
+        /* Aumentar la altura del carrusel */
         object-fit: cover;
     }
-    
+
 }
+
 @media (min-width: 768px) {
     .carousel-item img {
         width: 100%;
-        height: 500px; /* Aumentar la altura del carrusel */
+        height: 500px;
+        /* Aumentar la altura del carrusel */
         object-fit: cover;
     }
 }
@@ -188,17 +210,20 @@ p{
 
 .back-to-home:hover {
     background-color: var(--blue-color);
-    color:white;
+    color: white;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--turquoise-color);
     border: none;
     color: var(--white-color);
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: var(--blue-color);
 }
-.icono{
+
+.icono {
     width: 40px;
     height: 45px;
     filter: invert(100%) sepia(94%) saturate(100%) hue-rotate(187deg) brightness(115%) contrast(90%);
