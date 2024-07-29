@@ -21,6 +21,7 @@ Este proyecto es un sitio web responsivo para una tienda online de Notebooks y C
 - ✅NavBar que incluye contacto y enlace a página de formulario
 - ✅Página general de Categorías y  páginas de categoría por producto
 - ✅Páginas de detalle para 3 productos por categoría
+-  <img src="/img/taskflow.jpg" alt="flujo de usuario" width="50%">
 
 ##  🛠️ Tecnologías Utilizadas
 - HTML5
@@ -38,10 +39,18 @@ Este proyecto utiliza Git para el control de versiones. Las ramas principales so
 - `Index`: rama de landing page
 - `Categorias`: ramas para categorias
 -  `Productos`: ramas para productos
+  
+-    <img src="/img/branches.png" alt="diseno" width="50%">
 
 ## Documentación Adicional
-- 🎨[Guía de Estilos]()
-- [Documentación Técnica]()
+🎨Guía de Estilos
+
+  <img src="/img/guiadiseno.png" alt="diseno" width="50%">
+  
+  🎨Esquema inicial
+
+
+  <img src="/img/Esquemainicial.png" alt="prototipo" width="50%">
 
 ## 🧑‍🤝‍🧑 Equipo del proyecto
  - Melanie Escobar
