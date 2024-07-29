@@ -1,20 +1,17 @@
 * {
-    font-family: 'Roboto' !important;
-    color: #2f1893 !important;
+  font-family: "Roboto" !important;
 }
 
-
 #boton {
-    background-color: #25DAC5 !important;
-    border: none;
-    color: #fff !important;
+  background-color: #25dac5 !important;
+  border: none;
+  color: #fff !important;
 }
 
 #boton:hover {
-    background-color: #1E0E62 !important;
+  background-color: #1e0e62 !important;
 }
 
-#titulo{
-    font-family: 'Roboto', sans-serif;
+#titulo {
+  font-family: "Roboto", sans-serif;
 }
-
