@@ -22,16 +22,30 @@ Este proyecto es un sitio web responsivo para una tienda online de Notebooks y C
 - ✅Página general de Categorías y  páginas de categoría por producto
 - ✅Páginas de detalle para 3 productos por categoría
 -  <img src="/img/taskflow.jpg" alt="flujo de usuario" width="50%">
+-  <img src="/img/estructuraProyecto.jpg" alt="Estructura dell proyecto" width="50%">
 
 ##  🛠️ Tecnologías Utilizadas
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- Git
+- <b>Visual Studio Code (Vs Code)</b> : editor de código fuente desarrollado por Microsoft. Es un software libre y multiplataforma, cuenta con buena integración con Git, soporte para depurar el código y una gran cantidad de extensiones facilitando el desarrollo del código.
+- <b>HTML5 (HyperText Markup Language)</b>: estándar utilizado con el objetivo de definir la estructura y el contenido del sitio web. Ofrece gran variedad de herramientas para lograr una buena experiencia de usuario y cuenta con compatibilidad múltiple entre navegadores. Está optimizado para desarrollar sitios y aplicaciones móviles lo que permite llevar a cabo proyectos responsivos y funcionales para todo tipo de dispositivos.
+- <b>CSS3 (Cascading Style Sheets)</b>: permite definir y crear la presentación de un proyecto ya estructurado. Se utiliza para crear experiencias web dinámicas y atractivas.
+HTML5 da instrucciones al navegador sobre cómo estructurar el contenido y CSS3 da instrucciones sobre los detalles de diseño del contenido en el sitio web.
+- <b>JavaScript (JS)</b>: es un lenguaje de programación utilizado para añadir interactividad y funciones en el sitio web para mejorar la experiencia del usuario.
+- <b>Bootstrap</b>: framework que cuenta con plantillas de diseño para maquetar el sitio web. Permite adaptar el contenido del sitio web a los diferentes tipos de pantallas.
+- <b>Git para el control de versiones y GitHub para mantener el repositorio de código almacenado en la nube.
 
 ## Instalación y Ejecución
-[Instrucciones para clonar el repositorio y ejecutar el proyecto localmente]
+Sigue estos pasos para instalar y configurar el proyecto localmente:
+
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/nicolasmartin89/Ejercicio7-Ecommerce.git
+    ```
+2. Navega al directorio del proyecto:
+
+    ```bash
+    cd Ejercicio7-Ecommerce
+    ```
+3. Abre el archivo `index.html` en tu navegador web preferido.
 
 ## Control de Versiones
 Este proyecto utiliza Git para el control de versiones. Las ramas principales son:
