@@ -22,7 +22,6 @@ Este proyecto es un sitio web responsivo para una tienda online de Notebooks y C
 - ✅Página general de Categorías y  páginas de categoría por producto
 - ✅Páginas de detalle para 3 productos por categoría
 -  <img src="/img/taskflow.jpg" alt="flujo de usuario" width="50%">
--  <img src="/img/estructuraProyecto.jpg" alt="Estructura dell proyecto" width="50%">
 
 ##  🛠️ Tecnologías Utilizadas
 - <b>Visual Studio Code (Vs Code)</b> : editor de código fuente desarrollado por Microsoft. Es un software libre y multiplataforma, cuenta con buena integración con Git, soporte para depurar el código y una gran cantidad de extensiones facilitando el desarrollo del código.
